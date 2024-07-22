@@ -1,12 +1,6 @@
 <h1 align="center">Hi 👋, I'm Mian Hamid Ur Rehman</h1>
 <h3 align="center">| Full Stack Web Developer | UX Designer | Noob Flutter Developer |</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hamid6426&label=Profile%20views&color=0e75b6&style=flat" alt="hamid6426" /> </p>
-
-<p align="left"> <a href="https://github.com/Hamid6426/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hamid6426" alt="hamid6426" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
 - 🌱 I’m currently learning **Flutter**
 
 - 👨‍💻 All of my projects are available at [https://codepen.io/Hamid6426](https://codepen.io/Hamid6426)
