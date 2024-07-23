@@ -1,4 +1,4 @@
-<img src="https://github.com/Hamid6426/Hamid6426/blob/main/hamid-github.png?raw=true">
+<img src="https://github.com/Hamid6426/Hamid6426/blob/main/github.png?raw=true">
 
 # 👋 Hello, Everyone! 👋
 
@@ -10,7 +10,6 @@
 
 - Front-End Web Development
 - Back-End Web Development
-- Database Management
 - Rapid & Continous Learning
 - Problem Solving
 - Adaptability
