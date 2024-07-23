@@ -1,4 +1,4 @@
-<img src="https://github.com/Hamid6426/Hamid6426/blob/main/github.png?raw=true" style="width: 400px">
+<img src="https://github.com/Hamid6426/Hamid6426/blob/main/github.png?raw=true" style="width: 100%">
 
 # 👋 Hello, Everyone! 👋
 
@@ -63,7 +63,7 @@
 
 <br/>
 
-### 📫 Where to find me
+## Where to find me
 
 - [Email](mailto:MianHamid6426@gmail.com)
 - [Codepen](https://codepen.io/Hamid6426)
@@ -76,12 +76,18 @@
 
 <br/>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hamid6426&show_icons=true&locale=en&layout=compact" alt="hamid6426" /></p>
+<h2> My Techs Stats </h2>
+
+<p><img display="block" src="https://github-readme-stats.vercel.app/api/top-langs?username=hamid6426&show_icons=true&locale=en" alt="hamid6426"/></p>
 
 <br/>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hamid6426&show_icons=true&locale=en" alt="hamid6426" /></p>
+<h2> My Github Stats </h2>
+
+<p><img src="https://github-readme-stats.vercel.app/api?username=hamid6426&show_icons=true&locale=en" alt="hamid6426"/></p>
 
 <br/>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hamid6426&" alt="hamid6426" /></p>
+<h2> My Contribution Stats </h2>
+
+<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=hamid6426" alt="hamid6426"/></p>
