@@ -1,9 +1,9 @@
 <img src="https://github.com/Hamid6426/Hamid6426/blob/main/hamid-github.png?raw=true">
 
-<h1 align="center">👋 Hello, Everyone!, I'm Mian Hamid Ur Rehman</h1>
-<h3 align="center">| Full Stack Web Developer |</h3>
+<h1 align="center">👋 Hello, Everyone! 👋 </h1>
+<h2 align="center">| Full Stack Web Developer |</h2>
 
-<p> Learn more about me </p>
+<p> I am Mian Hamid Ur Rehman from Pakistan. Learn more about me </p>
 
 - 🌱 I’m currently learning **Flutter**
 
