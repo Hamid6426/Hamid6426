@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mian Hamid Ur Rehman</h1>
-<h3 align="center">| Full Stack Web Developer | UX Designer | Noob Flutter Developer |</h3>
+<h3 align="center">| Full Stack Web Developer | UX Designer | App Development Starter |</h3>
 
 - 🌱 I’m currently learning **Flutter**
 
