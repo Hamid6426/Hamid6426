@@ -1,6 +1,6 @@
 <img src="https://github.com/Hamid6426/Hamid6426/blob/main/hamid-github.png?raw=true">
 
-<h1 align="center">👋 Hello, Everyone! 👋 </h1>
+# 👋 Hello, Everyone! 👋
 
 <p> I am Mian Hamid Ur Rehman from Pakistan. Learn more about me </p>
 
