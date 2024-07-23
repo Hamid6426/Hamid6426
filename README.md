@@ -1,4 +1,4 @@
-<img src="https://github.com/Hamid6426/Hamid6426/blob/main/Hamid-github.png?raw=true">
+<img src="https://github.com/Hamid6426/Hamid6426/blob/main/hamid-github.png?raw=true">
 
 <h1 align="center">👋 Hello, Everyone!, I'm Mian Hamid Ur Rehman</h1>
 <h3 align="center">| Full Stack Web Developer |</h3>
