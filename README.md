@@ -2,7 +2,21 @@
 
 # 👋 Hello, Everyone! 👋
 
-<p> I am Mian Hamid Ur Rehman from Pakistan. Learn more about me </p>
+<p> I'm Mian Hamid Ur Rehman from Nowshera, Pakistan. A Full Stack Web Developer specializing in the MERN stack (MongoDB, Express.js, React.js, and Node.js). With a strong foundation in HTML, CSS, and JavaScript, I excel in creating dynamic and responsive web applications. I am currently looking for an internship or entry-level job to collaborate with other developers and hone my skills. </p>
+
+<br/>
+
+## Core Competencies
+
+- Front-End Web Development
+- Back-End Web Development
+- Database Management
+- Rapid & Continous Learning
+- Problem Solving
+- Adaptability
+- Analyst / Attention to Details
+
+<br/>
 
 - 🌱 I’m currently learning **Flutter**
 
