@@ -72,8 +72,8 @@
 - [Instagram](https://www.instagram.com/Mianhamid6426)
 - [Dribble](https://www.dribble.com/Hamid6426)
 - [LeetCode](https://www.leetcode.com/hamid6426)
-- [Resume](https://drive.google.com/file/d/1Fk2xuox93OPMSk0vFAF4kjn7KWP4qrt4/view?usp=sharing#gh-light-mode-only)
-- [Resume](https://drive.google.com/file/d/1_3BsptfxkrSbi5HLw1JGLTjFCbgBl1cY/view?usp=sharing#gh-dark-mode-only)
+- [Resume-Dark](https://drive.google.com/file/d/1_3BsptfxkrSbi5HLw1JGLTjFCbgBl1cY/view?usp=sharing#gh-dark-mode-only)
+- [Resume-Light](https://drive.google.com/file/d/1Fk2xuox93OPMSk0vFAF4kjn7KWP4qrt4/view?usp=sharing#gh-light-mode-only)
   
 <br/>
 
