@@ -1,4 +1,4 @@
-<img src="https://github.com/Hamid6426/Hamid6426/blob/main/assets/hamid6426-github.png?raw=true" style="width: 80%">
+<img src="https://github.com/Hamid6426/Hamid6426/blob/main/assets/hamid6426-github.png?raw=true" style="width: 80%, margin-x: auto">
 
 # 👋 Hello, Everyone! 👋
 
