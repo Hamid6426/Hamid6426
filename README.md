@@ -2,11 +2,19 @@
 
 # 👋 Hello, Everyone! 👋
 
-<p> I'm Mian Hamid Ur Rehman from Nowshera, Pakistan. I transitioned from mechanical engineering to web development, specializing in the MERN stack (MongoDB, Express.js, React.js, and Node.js). With a solid foundation in HTML, CSS, and JavaScript, I create dynamic and responsive websites and web applications. I am currently looking for an entry-level job to collaborate with other developers and hone my skills with real-life experience. </p>
+<p> I'm Mian Hamid Ur Rehman from Nowshera, Pakistan. I transitioned from mechanical engineering to web development, specializing in REACT with Next.js and MERN stack (MongoDB, Express.js, React.js, and Node.js). With a solid foundation in HTML, CSS, and JavaScript, I create dynamic and responsive websites and web applications. </p>
+  
+<p><span>P.S.</span> I am currently seeking an entry-level job to collaborate with other developers and hone my skills with real-life experience. </p>
 
 ## Current Status
 
-<p> Learning Next.js, Tailwind CSS, and GraphQL </p>
+<p> Currently working with the following stack </p>
+
+- Next.js app router
+- React
+- Tailwind CSS
+- Typescript
+- RESTful API / GraphQL
 
 <br/>
 
@@ -34,17 +42,19 @@
 - jquery
 - React
 - Redux
+- Next.js
 - SASS
 - D3
 - Tailwind CSS
 
 ### Back-End Techs
 
+- Next.js
+- Prisma
 - Javascript
 - Typescript
 - PostgreSQL
-- NoSQL
-- SQL
+- mySQL
 - Express
 - NPM / Node.js
 - MongoDB / Mongoose
@@ -68,6 +78,7 @@
 <br/>
 
 ## Where to find me
+
 
 - [Email](mailto:MianHamid6426@gmail.com)
 - [Codepen](https://codepen.io/Hamid6426)
