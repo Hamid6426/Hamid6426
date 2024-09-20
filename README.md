@@ -2,7 +2,9 @@
 
 # 👋 Hello, Everyone! 👋
 
-<p> I'm Mian Hamid Ur Rehman from Nowshera, Pakistan. I transitioned from mechanical engineering to web development, specializing in REACT with Next.js and MERN stack (MongoDB, Express.js, React.js, and Node.js). With a solid foundation in HTML, CSS, and JavaScript, I create dynamic and responsive websites and web applications. </p>
+<p> My name is Mian Hamid Ur Rehman. A full stack web developer. I transitioned from mechanical engineering to the field of web development, Specializing in React framework with MERN Stack, and Next.js Architecture. Proficient in UX Design principles with expertise in Figma for crafting intuitive and user-friendly interfaces. </p>
+
+<p>As a Full Stack Web Developer, I bring together strong front-end and back-end development skills with a deep understanding of UX Design principles. Proficient in Figma, I ensure functional, efficient, and user-centered web applications and deliver a seamless experience across the entire stack.</p>
   
 <p><span>P.S.</span> I am currently seeking a junior web developer job to learn more and am open to work with other frameworks. </p>
 
