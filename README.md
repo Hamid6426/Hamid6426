@@ -9,13 +9,11 @@
 ## Current Status
 
 <p> Currently working with the following stack </p>
-
 - Next.js app router
 - React
 - Tailwind CSS
 - Typescript
 - RESTful API / GraphQL
-
 <br/>
 
 ## Core Competencies
@@ -28,7 +26,6 @@
 - Problem Solving
 - Rapid Learning
 - Adaptability
-
 <br/>
 
 ## Tech and Tools
@@ -41,11 +38,10 @@
 - Bootstrap
 - jquery
 - React
-- Redux
 - Next.js
 - SASS
 - D3
-- Tailwind CSS
+- Tailwind CSS (Favorite)
 
 ### Back-End Techs
 
@@ -67,11 +63,12 @@
 ### Others
 
 - OS = Windows
-- IDE = Visual Studio Code
+- IDE = Visual Studio Code / GitPod
+- HOSTING = Vercel / Firebase
 - Shell = Bash
 - Tools = MS Office
 - Tools = Git / Github
-- Design = Figma
+- Design = Figma (Favorite)
 - Design = Adobe XD
 - Design = Adobe Illustrator
 
