@@ -8,7 +8,8 @@
 
 ## Current Status
 
-<p> Creating mini-projects with the following stack </p>
+Currently creating mini-projects with the following stack
+
 - Next.js app router
 - React
 - Tailwind CSS
