@@ -2,13 +2,11 @@
 
 # 👋 Hello, Everyone! 👋
 
-<p> My name is Mian Hamid Ur Rehman. A full stack web developer specializing in React framework with MERN Stack, and Next.js Architecture. Proficient in UX Design principles with expertise in Figma for crafting intuitive and user-friendly interfaces. </p>
-
-<p>As a Full Stack Web Developer, I bring together strong front-end and back-end development skills with a deep understanding of UX Design principles. Proficient in Figma, I ensure functional, efficient, and user-centered web applications and deliver a seamless experience across the entire stack.</p>
+<p> My name is Mian Hamid Ur Rehman. I am a full-stack web developer specializing in the React framework with MERN Stack and Next.js. With proficiency in creating UI using Figma. I ensure the development of functional, efficient, and user-centered web applications, delivering a seamless experience.</p>
   
 ## Current Status
 
-Currently working part-time as a full stack web developer with vocsena
+Currently working part-time as a full-stack web developer with vocsena
 
 - MERN (MongoDB, Express, React, Node.js)
 - Vite as the build tool
