@@ -23,7 +23,6 @@ Currently working part-time as a full-stack web developer with vocsena
 - Problem Solving
 - Rapid Learning
 - Adaptability
-<br/>
 
 ## Tech and Tools
 
@@ -69,10 +68,7 @@ Currently working part-time as a full-stack web developer with vocsena
 - Design = Adobe XD
 - Design = Adobe Illustrator
 
-<br/>
-
 ## Where to find me
-
 
 - [Email](mailto:MianHamid6426@gmail.com)
 - [Codepen](https://codepen.io/Hamid6426)
@@ -82,21 +78,12 @@ Currently working part-time as a full-stack web developer with vocsena
 - [Dribble](https://www.dribble.com/Hamid6426)
 - [LeetCode](https://www.leetcode.com/hamid6426)
 - [Resume](https://drive.google.com/file/d/1_3BsptfxkrSbi5HLw1JGLTjFCbgBl1cY/view?usp=sharing#gh-dark-mode-only)[Resume](https://drive.google.com/file/d/1Fk2xuox93OPMSk0vFAF4kjn7KWP4qrt4/view?usp=sharing#gh-light-mode-only)
-  
-<br/>
 
 <h2> My Techs Stats </h2>
-
 <p><img display="block" src="https://github-readme-stats.vercel.app/api/top-langs?username=hamid6426&show_icons=true&locale=en" alt="hamid6426"/></p>
 
-<br/>
-
 <h2> My Github Stats </h2>
-
 <p><img src="https://github-readme-stats.vercel.app/api?username=hamid6426&show_icons=true&locale=en" alt="hamid6426"/></p>
 
-<br/>
-
 <h2> My Contribution Stats </h2>
-
 <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=hamid6426" alt="hamid6426"/></p>
