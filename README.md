@@ -10,9 +10,10 @@
 
 Currently working part-time as a full stack web developer with vocsena
 
-- MERN
-- Figma
-- Gsap
+- MERN (MongoDB, Express, React, Node.js)
+- Vite as the build tool
+- Figma for design
+- Gsap for micro-animations
 
 ## Core Competencies
 
