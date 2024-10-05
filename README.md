@@ -6,17 +6,14 @@
 
 <p>As a Full Stack Web Developer, I bring together strong front-end and back-end development skills with a deep understanding of UX Design principles. Proficient in Figma, I ensure functional, efficient, and user-centered web applications and deliver a seamless experience across the entire stack.</p>
   
-<p><span>P.S.</span> I am currently seeking a junior web developer job to learn more and am open to work with other frameworks. </p>
-
 ## Current Status
 
-Currently creating mini-projects with the following stack
+Currently working part-time as a full stack web developer with vocsena
 
-- Next.js app router
-- React
-- Tailwind CSS
-- Typescript
-- RESTful API / GraphQL
+- MERN
+- Figma
+- Gsap
+  
 <br/>
 
 ## Core Competencies
