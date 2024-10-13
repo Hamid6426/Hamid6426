@@ -6,7 +6,7 @@
   
 ## Current Status
 
-Currently working part-time as a full-stack web developer with vocsena
+Currently working part-time (12 hour/week) as a full-stack web developer with vocsena WITH
 
 - MERN (MongoDB, Express, React, Node.js)
 - Vite as the build tool
