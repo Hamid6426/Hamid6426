@@ -8,7 +8,7 @@
 
 Working part-time (12 hours/week) as a full-stack web developer with "Vocsena" and seeking a full-time job
 
-Techs used:
+Techs in use:
 - MERN (MongoDB, Express, React, Node.js)
 - Vite as the build tool
 - Figma for design
