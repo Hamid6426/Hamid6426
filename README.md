@@ -6,7 +6,7 @@
   
 ## Current Status
 
-Working part-time (12 hours/week) as a full-stack web developer with "Vocsena" and seeking a full-time job
+Working part-time as a full-stack web developer with "Vocsena" and seeking a full-time job
 
 Techs in use:
 - MERN (MongoDB, Express, React, Node.js)
