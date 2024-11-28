@@ -35,10 +35,10 @@ Techs in use:
 - Bootstrap
 - jquery
 - React
-- Next.js
 - SASS
 - D3
 - Tailwind CSS (Favorite)
+- Next.js
 
 ### Back-End Techs
 
@@ -48,9 +48,16 @@ Techs in use:
 - Typescript
 - PostgreSQL
 - mySQL
+- prisma
 - Express
 - NPM / Node.js
 - MongoDB / Mongoose
+
+### Architecture
+
+- Monolithic architecture (Mostly)
+- Microservice architecture (Have knowledge but no usage till now)
+- DDD Architecture (Once)
 
 ### No-Code Techs
 
@@ -59,15 +66,23 @@ Techs in use:
 
 ### Others
 
-- OS = Windows
-- IDE = Visual Studio Code / GitPod
-- HOSTING = Vercel / Firebase
-- Shell = Bash
-- Tools = MS Office
+- Operating System = Windows 10/11
+- Operating System = Linux Ubuntu
+- Operating System = Linux Arch
+- IDE = Visual Studio Code
+- IDE = Jetbrain WebStorm
+- IDE = Jetbrain PHPStrom
+- HOSTING = Vercel
+- HOSTING = Firebase
+- HOSTING = VPS (Knowledge of this method)
+- Shell = Bash / Powershell
+- Tools = MS Office (Can't afford it)
+- Tools = Libre Office (Why not use it for free!)
+- Tools = Google Workspace (Usually)
 - Tools = Git / Github
-- Design = Figma (Favorite)
-- Design = Adobe XD
-- Design = Adobe Illustrator
+- Design = Figma (Favorite and use it for everything possible)
+- Design = Adobe XD (Just for a few days)
+- Design = Adobe Illustrator (For simple logo for my websites)
 
 ## Where to find me
 
