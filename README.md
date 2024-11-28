@@ -9,10 +9,12 @@
 Working part-time as a full-stack web developer with "Vocsena" and seeking a full-time job
 
 Techs in use:
-- MERN (MongoDB, Express, React, Node.js)
+- React.js Tailwind and MUI
 - Vite as the build tool
-- Figma for design
 - Gsap for micro-animations
+- Figma for design
+- DDD Architecture
+- Node Express Typescript mySQL Prisma and related packages 
 
 ## Core Competencies
 
