@@ -1,6 +1,6 @@
 [comment]: <> (<img src="https://github.com/Hamid6426/Hamid6426/blob/main/assets/hamid6426-github.png?raw=true" style="width: 80%, margin-x: auto">)
 
-# 👋 Hello, Everyone! 👋
+# Hello
 
 <p> My name is Mian Hamid Ur Rehman. I am a full-stack web developer specializing in the React framework with MERN Stack and Next.js. With proficiency in creating UI using Figma. I ensure the development of functional, efficient, and user-centered web applications, delivering a seamless experience.</p>
   
