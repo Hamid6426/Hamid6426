@@ -1,9 +1,6 @@
 # MIAN HAMID UR REHMAN
 
-Web & Mobile App MVP Builder | JavaScript / TypeScript
-
-## ABOUT ME
-Full-stack dev with 10+ projects. I build solid MVPs fast, focusing on backend APIs, databases, and deployment. Prefer clean code and scalable architectures.
+FULL STACK WEB & MOBILE APP DEVELOPER. I SPECIALIZED IN BUILDING QUICK-TO-MARKET MVP(s).
 
 ## TECH STACK
 
