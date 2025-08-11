@@ -33,8 +33,3 @@
   <h2 style="font-weight: 700; font-size: 1.5em; border-bottom: 2px solid #2563eb; padding-bottom: 0.2em; margin-bottom: 1em;">My GitHub Stats</h2>
   <img src="https://github-readme-stats.vercel.app/api?username=hamid6426&show_icons=true&locale=en" alt="hamid6426 GitHub Stats" style="display: block; max-width: 100%; margin-bottom: 2em;">
 </section>
-
-<section>
-  <h2 style="font-weight: 700; font-size: 1.5em; border-bottom: 2px solid #2563eb; padding-bottom: 0.2em; margin-bottom: 1em;">My Contribution Stats</h2>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hamid6426" alt="hamid6426 Contribution Stats" style="display: block; max-width: 100%;">
-</section>
