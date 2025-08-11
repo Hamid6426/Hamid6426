@@ -1,8 +1,7 @@
 <h1 style="font-weight: bold; font-size: 2.5em; margin-bottom: 0.2em;">MIAN HAMID UR REHMAN</h1>
 
 <p style="font-weight: 600; font-size: 1.2em; letter-spacing: 1.5px; margin-top: 0; margin-bottom: 1.5em;">
-  Full-Stack Web & Mobile App Developer.<br>
-  <span style="color: #2563eb;">I Specialize in Building Quick-To-Market MVPs.</span>
+  Full-Stack Web & Mobile App Developer&nbsp;&nbsp;&nbsp;" I specialize in building Quick-to-Market MVPs "
 </p>
 
 <section style="margin-bottom: 2em;">
