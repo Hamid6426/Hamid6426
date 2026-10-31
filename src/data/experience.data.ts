@@ -32,24 +32,12 @@ export const experienceData: ExperienceItem[] = [
     points: [
       "Built frontend features with Angular for Optician Dynamics, an optical ERP and POS for eyewear retailers.",
       "Refactored core POS, warehouse, and purchasing workflows to improve UX and cross-device responsiveness.",
-      "Maintained consistent delivery and guided 2 internees as a senior dev in a remote setup, without AI tools.",
+      "Maintained delivery in an RDP setup, consistently scoring 90% productivity while working without AI tools.",
     ],
     current: false,
   },
   {
     id: 3,
-    company: "Fiverr",
-    location: "Remote",
-    role: "Full Stack Developer",
-    dates: "March 2025 - January 2026",
-    points: [
-      "Turned client ideas into web apps with the MERN stack, Angular and Next.js with a 100% satisfaction and 5-star rating..",
-      "Fixed buggy, vibe-coded and unfinished projects, including a complex full-stack application and 3D project with three.js.",
-    ],
-    current: false,
-  },
-  {
-    id: 4,
     company: "BixForge Solutions",
     location: "Remote",
     role: "Backend Developer",
@@ -61,15 +49,27 @@ export const experienceData: ExperienceItem[] = [
     current: false,
   },
   {
-    id: 5,
+    id: 4,
     company: "Vocsena",
     location: "Remote",
-    role: "Full-Stack Web Developer",
+    role: "Full Stack Developer",
     dates: "September 2024 - December 2024",
     points: [
       "Built responsive pages and complex routing in React and Tailwind CSS from Figma designs.",
       "Added authentication, metadata upload and database setup on a Node.js/Express backend, and documented the APIs.",
     ],
     current: false,
+  },
+  {
+    id: 5,
+    company: "Freelance",
+    location: "Remote",
+    role: "Full Stack Developer",
+    dates: "July 2024 - Present",
+    points: [
+      "Turned client ideas into web apps with the MERN stack, Angular and Next.js with a 100% satisfaction and perfect rating.",
+      "Fixed buggy, vibe-coded and unfinished projects, including a complex full-stack application and 3D web project.",
+    ],
+    current: true,
   },
 ];

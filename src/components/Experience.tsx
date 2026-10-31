@@ -8,7 +8,7 @@ export default function Experience() {
     <Section id="experience" title="Experience">
       <ol className="list-none p-0">
         {experienceData.map((e, i) => (
-          <li key={e.id ?? e.dates + e.company}>
+          <li key={e.id}>
             <Separator />
             <Slide inView animation="slide-left" className="py-12">
               <h3 className={`t3 ${i === 0 ? "text-inverse" : ""}`}>

@@ -27,5 +27,5 @@ export const aboutData: AboutData = {
     "Full Stack Developer with 2+ years of experience building enterprise SaaS applications and SEO-focused websites, including leading a team of 8. Proficient in frontend, backend, and deployments, with hands-on experience leveraging AI tools and agents workflows for accelerated development.",
   portrait: "/profile.jpg",
   location: "Islamabad, Pakistan",
-  resume: "/Mian_Hamid_Ur_Rehman_Full_Stack_Developer_CV.pdf",
+  resume: "/Mian_Hamid_Ur_Rehman_CV.pdf",
 };

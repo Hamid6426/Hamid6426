@@ -204,7 +204,7 @@ export default function Hero() {
       >
         <a
           href={aboutData.resume}
-          download="Mian_Hamid_Ur_Rehman_Full_Stack_Developer_CV.pdf"
+          download="Mian_Hamid_Ur_Rehman_CV.pdf"
           aria-label="Download CV"
           title="Download CV"
           className="flex size-11 shrink-0 items-center justify-center rounded-full bg-inverse text-base transition-colors hover:bg-primary md:size-20 xl:mb-2"
