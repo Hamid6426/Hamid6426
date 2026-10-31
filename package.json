@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "bun --bun next dev --webpack",
-    "build": "bun --bun next build --webpack",
-    "start": "bun --bun next start",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.test.json",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "test": "node --test --test-isolation=none tests/contact-submission.test.js",
+    "test:browser": "node --test tests/accessibility.test.js tests/hero-interactions.test.js tests/navbar.test.js"
   },
   "dependencies": {
     "motion": "^14.1.0",
@@ -31,15 +33,12 @@
     "prettier": "^3.9.9",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "playwright": "^1.64.1",
+    "axe-core": "^4.12.1"
   },
-  "packageManager": "bun@1.4.2",
-  "ignoreScripts": [
-    "sharp",
-    "unrs-resolver"
-  ],
-  "trustedDependencies": [
-    "sharp",
-    "unrs-resolver"
-  ]
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "type": "module"
 }

@@ -1,8 +1,11 @@
-import { afterAll, beforeEach, expect, mock, test } from "bun:test";
+import assert from "node:assert/strict";
+import { after, beforeEach, mock, test } from "node:test";
+import nodemailer from "nodemailer";
 
-const sendMail = mock(async () => ({ accepted: ["owner@example.com"] }));
-const createTransport = mock(() => ({ sendMail }));
-mock.module("nodemailer", () => ({ default: { createTransport } }));
+const sendMail = mock.fn(async () => ({ accepted: ["owner@example.com"] }));
+const createTransport = mock.method(nodemailer, "createTransport", () => ({
+  sendMail,
+}));
 
 const smtpKeys = [
   "SMTP_HOST",
@@ -13,9 +16,11 @@ const smtpKeys = [
   "SMTP_FROM",
   "SMTP_TO",
 ];
+
 const originalEnv = Object.fromEntries(
   smtpKeys.map((key) => [key, process.env[key]]),
 );
+
 const submission = {
   name: " Hamid ",
   email: " visitor@example.com ",
@@ -32,17 +37,19 @@ beforeEach(() => {
     SMTP_FROM: "owner@example.com",
     SMTP_TO: "owner@example.com",
   });
-  createTransport.mockClear();
-  sendMail.mockReset();
-  sendMail.mockResolvedValue({ accepted: ["owner@example.com"] });
+  createTransport.mock.resetCalls();
+  sendMail.mock.resetCalls();
+  sendMail.mock.mockImplementation(async () => ({
+    accepted: ["owner@example.com"],
+  }));
 });
 
-afterAll(() => {
+after(() => {
   for (const [key, value] of Object.entries(originalEnv)) {
     if (value === undefined) delete process.env[key];
     else process.env[key] = value;
   }
-  mock.restore();
+  mock.restoreAll();
 });
 
 async function submit(body, raw = false) {
@@ -58,17 +65,17 @@ async function submit(body, raw = false) {
 
 test("sends trimmed contact details to the configured owner with the visitor as reply-to", async () => {
   const response = await submit(submission);
-  expect(response.status).toBe(200);
-  expect(await response.json()).toEqual({
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), {
     success: true,
     message: "Message sent successfully.",
   });
-  expect(createTransport.mock.calls[0][0]).toMatchObject({
+  assert.partialDeepStrictEqual(createTransport.mock.calls[0].arguments[0], {
     port: 587,
     secure: false,
     requireTLS: true,
   });
-  expect(sendMail.mock.calls[0][0]).toMatchObject({
+  assert.partialDeepStrictEqual(sendMail.mock.calls[0].arguments[0], {
     from: "owner@example.com",
     to: "owner@example.com",
     replyTo: "visitor@example.com",
@@ -78,8 +85,8 @@ test("sends trimmed contact details to the configured owner with the visitor as 
 });
 
 test("rejects malformed JSON without attempting delivery", async () => {
-  expect((await submit("{", true)).status).toBe(400);
-  expect(sendMail).not.toHaveBeenCalled();
+  assert.equal((await submit("{", true)).status, 400);
+  assert.equal(sendMail.mock.callCount(), 0);
 });
 
 test("rejects invalid fields and oversized messages without attempting delivery", async () => {
@@ -94,35 +101,37 @@ test("rejects invalid fields and oversized messages without attempting delivery"
     { ...submission, message: "short" },
     { ...submission, message: "x".repeat(5001) },
   ]) {
-    expect((await submit(body)).status).toBe(400);
+    assert.equal((await submit(body)).status, 400);
   }
-  expect(sendMail).not.toHaveBeenCalled();
+  assert.equal(sendMail.mock.callCount(), 0);
 });
 
 test("reports missing or invalid SMTP configuration without delivery", async () => {
   delete process.env.SMTP_PASS;
-  expect((await submit(submission)).status).toBe(503);
+  assert.equal((await submit(submission)).status, 503);
   process.env.SMTP_PASS = "test-password";
   process.env.SMTP_PORT = "invalid";
-  expect((await submit(submission)).status).toBe(503);
-  expect(sendMail).not.toHaveBeenCalled();
+  assert.equal((await submit(submission)).status, 503);
+  assert.equal(sendMail.mock.callCount(), 0);
 });
 
 test("returns a generic error when SMTP delivery fails", async () => {
-  sendMail.mockRejectedValueOnce(new Error("private SMTP details"));
+  sendMail.mock.mockImplementationOnce(async () => {
+    throw new Error("private SMTP details");
+  });
   const response = await submit(submission);
-  expect(response.status).toBe(502);
+  assert.equal(response.status, 502);
   const body = await response.json();
-  expect(body.success).toBe(false);
-  expect(JSON.stringify(body)).not.toContain("private SMTP details");
+  assert.equal(body.success, false);
+  assert.doesNotMatch(JSON.stringify(body), /private SMTP details/);
 });
 
 test("reports failed delivery when the SMTP server accepts no recipients", async () => {
-  sendMail.mockResolvedValueOnce({
+  sendMail.mock.mockImplementationOnce(async () => ({
     accepted: [],
     rejected: ["owner@example.com"],
-  });
+  }));
   const response = await submit(submission);
-  expect(response.status).toBe(502);
-  expect((await response.json()).success).toBe(false);
+  assert.equal(response.status, 502);
+  assert.equal((await response.json()).success, false);
 });
