@@ -18,6 +18,14 @@ The contact form submits to `/api/contact-submission`. Failed submissions preser
 
 ## Checks
 
+### Dependency security
+
+Next.js and `eslint-config-next` are pinned to 16.4.3. A scoped npm override updates TypeScript ESLint's minimatch dependency to 11.0.3; remove it when the upstream dependency supports a patched version directly.
+
+The remaining lint dependencies use minimatch 3, which is still flagged by [GHSA-g3hv-75wg-m249](https://github.com/advisories/GHSA-g3hv-75wg-m249). Its CommonJS API differs from minimatch 11, so a global override would break callers. Recheck `npm audit` when updating the lint dependencies. Avoid `npm audit fix --force`: its proposed ESLint downgrade is incompatible with this project's configuration. Use `npm audit --omit=dev` to check production dependencies separately.
+
+### Project validation
+
 ```bash
 npm run lint
 npm run typecheck
