@@ -50,7 +50,7 @@ Page order: Hero → About → Projects → Experience → Education → Certifi
 
 Hero links wrap in a row below `xl` and stack in the upper-right corner from `xl`. CV and profile buttons are filled; social and contact links are outlined.
 
-The profile card opens from the desktop name on hover or keyboard focus, or from the profile button on smaller screens. Escape, blur, and outside pointer presses close it. It fades over 200ms and switches from vertical to horizontal at `xl`.
+The sixth hero button toggles the profile card at every screen size. The name is a static heading; hovering or focusing it does not open the card. Escape, blur, and outside pointer presses close it. It fades over 200ms and switches from vertical to horizontal at `xl`.
 
 Project arrows link to a new tab. The row content slides in on scroll.
 

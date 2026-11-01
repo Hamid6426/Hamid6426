@@ -125,15 +125,17 @@ test(
         "PASS keyboard navigation, mobile menu, Escape, anchor links, and resize",
       );
 
-      await page.locator("header ul a").last().focus();
-      await page.keyboard.press("Tab");
-      await page.locator("#profile-card img").waitFor();
+      await page
+        .getByRole("button", { name: "Show Profile Card", exact: true })
+        .focus();
+      await page.keyboard.press("Enter");
+      await page.locator("#profile-card-desktop img").waitFor();
       await page.waitForFunction(() => {
-        const image = document.querySelector("#profile-card img");
+        const image = document.querySelector("#profile-card-desktop img");
         return image?.complete && image.naturalWidth > 0;
       });
       await page.keyboard.press("Escape");
-      await page.locator("#profile-card").waitFor({ state: "hidden" });
+      await page.locator("#profile-card-desktop").waitFor({ state: "hidden" });
       const icon = await page.request.get(
         new URL(
           await page.locator('link[rel="icon"]').getAttribute("href"),
@@ -311,9 +313,13 @@ test(
         viewport: { width: 375, height: 812 },
       });
       await touch.goto(url, { waitUntil: "networkidle" });
-      await touch.locator("h1").tap();
+      await touch
+        .getByRole("button", { name: "Show Profile Card", exact: true })
+        .tap();
       await touch.locator("#profile-card").waitFor();
-      await touch.locator("h1").tap();
+      await touch
+        .getByRole("button", { name: "Show Profile Card", exact: true })
+        .tap();
       await touch.locator("#profile-card").waitFor({ state: "hidden" });
       await touch.close();
       console.log(
