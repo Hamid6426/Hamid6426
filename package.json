@@ -14,6 +14,7 @@
     "test:browser": "node --test tests/accessibility.test.js tests/hero-interactions.test.js tests/navbar.test.js"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "motion": "^14.1.0",
     "next": "16.4.3",
     "nodemailer": "^10.0.16",
