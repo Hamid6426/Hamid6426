@@ -179,9 +179,9 @@ export default function Hero() {
           aria-controls="profile-card profile-card-desktop"
           aria-label="Show Profile Card"
           title="Show Profile Card"
-          className="flex size-11 shrink-0 items-center justify-center rounded-full bg-inverse text-base transition-colors hover:bg-primary md:size-20 xl:mb-2"
+          className="flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full bg-inverse text-base transition-colors hover:bg-primary md:size-20 xl:mb-2"
         >
-          <Icon name="profile" className="size-6 md:size-10" />
+          <Icon name="profile"className="size-6 md:size-10" />
         </button>
       </nav>
     </section>
